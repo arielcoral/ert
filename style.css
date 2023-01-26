@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+div.header{
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 15px rgb(77, 77, 77);
+}
+div.top{
+    margin-top: 49px;
+}
+div.totop{
+    /* height: 500px; */
+    background-image: url(https://www.picshare.co.il/m_pictures/img164463.jpg);
+}
+div.L{
+    padding-right: 190px;
+
+}
+h1.text1{
+    margin-top: 100px;
+    background-color: black;
+    color: #ffffff;
+}
+h4.text2{
+    background-color: black;
+    color: #ffffff;
+}
+div.R{
+   margin-top: 70px;
+   margin-bottom: 70px;
+}
+form.form{
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 20px;
+    text-align: center;
+}
+h2.toform{
+
+}
+input{
+    padding: 10px 80px 10px 5px;
+    margin: 10px 0px 10px 0px;
+}
+button.button1{
+    font-size: 23px;
+    padding: 10px 80px 10px 80px;
+    color: #ffffff;
+    border: none;
+    background-color: rgb(0, 165, 0);
+}
+img.row1_img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+  }
+ div.row2{
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+}
+ h1.h1_row2{
+    text-align: center;
+}
+div.section3{
+    margin-top: 50px;
+ }
+div.frf{
+    border-left: 1px solid black;
+}
+
+ div.row2text {
+    text-align: center;
+
+}
+img.row2img{
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+}
+div.section3 {
+    background-color: #f0e8e5;
+    text-align: center;
+  }
+p.article{
+    background-color: #f0e8e5;
+    text-align: center;
+ }
+
+ 
+div.button{
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+.logo{
+  display: inline;
+}
+.fa-solid{
+  margin-left: 30px;
+}
+
+@media (max-width:600px){
+div.R{    
+    margin-bottom: 100px;
+}
+div.topsection{
+    height: 700px;
+}
+div.sectionR{
+    margin-left:0px;
+}
+
+div.sectionL{
+    margin: 70px 0px 0px 0px;
+} 
+#row2border {
+    border: none;
+    border-bottom: 1px solid black;
+}
+}
